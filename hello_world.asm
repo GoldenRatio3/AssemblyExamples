@@ -14,5 +14,5 @@ _start:
   xor       rdi, rdi                ; exit code 0
   syscall                           ; invoke operating system to exit
 
-section   .data
+section.data
 message:  db        "Hello, World", 10      ; note the newline at the end
