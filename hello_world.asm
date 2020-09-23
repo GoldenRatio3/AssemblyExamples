@@ -3,8 +3,8 @@
 ; ----------------------------------------------------------------------------------------
 
 section.text
-  global _start
-_start:
+  global start
+start:
   mov       rax, 0x02000004         ; system call for write
   mov       rdi, 1                  ; file handle 1 is stdout
   mov       rsi, message            ; address of string to output
