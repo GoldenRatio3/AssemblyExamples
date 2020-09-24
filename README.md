@@ -33,3 +33,12 @@ Section A.2 AMD64 Linux Kernal Conventions
 5. Returning from the syscall, register %rax contains the result of the system-call. A value in the range between -4095 and -1 indicates an error, it is -errno.
 6. Only values of class INTEGER or class MEMORY are passed to the kernel.
 
+## Addressing
+
+There are three main types of addressing
+
+1. Register Addressing e.g. MOV DX, TAX_RATE		; Register in first operand (fastest way)
+2. Immediate Addressing e.g. BYTE_VALUE DB 150  	; A byte value is defined
+3. Direct Memory Addressing e.g. MOV BX, WORD_VALUE 	; Operand from memory is added to the register
+
+
