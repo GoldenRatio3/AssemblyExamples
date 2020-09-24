@@ -12,6 +12,9 @@ Assembly files have the .asm extension, the goal is to turn into an executable b
 
 3. Run hello world program by running `./hello_world`
 
+## Reading compiled binary
+Once you have assembled the assembly (.asm) file into and object (.o) file you can run `hexdump -C [FILE_NAME].o` to out the binary representation
+
 ## Registers
 
 Three main areas defined in a assembly program
