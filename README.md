@@ -6,11 +6,11 @@ Assembly files have the .asm extension, the goal is to turn into an executable b
 
 ## Running Examples
 
-1. Assemble the .asm file into an object .o file by running `nasm -f macho64 hello_world.asm`
+1. Assemble the .asm file into an object .o file by running `nasm -f macho64 [FILE_NAME].asm`
 
-2. Link the hello_world.o file and turn into an executable named 'hello_world', by running `ld -macosx_version_min 10.7.0 -o hello_world hello_world.o`
+2. Link the [FILE_NAME].o file and turn into an executable named '[FILE_NAME]', by running `ld -macosx_version_min 10.7.0 -o [FILE_NAME] [FILE_NAME].o`
 
-3. Run hello world program by running `./hello_world`
+3. Run the program by running `./[FILE_NAME]`
 
 ## Reading compiled binary
 Once you have assembled the assembly (.asm) file into and object (.o) file you can run `hexdump -C [FILE_NAME].o` to out the binary representation
