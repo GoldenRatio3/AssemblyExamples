@@ -41,4 +41,25 @@ There are three main types of addressing
 2. Immediate Addressing e.g. BYTE_VALUE DB 150  	; A byte value is defined
 3. Direct Memory Addressing e.g. MOV BX, WORD_VALUE 	; Operand from memory is added to the register
 
+## Variables
+
+Allocating storage space for initalized data (define directive)
+
+Five basic forms of the define directive
+1. DB (Define Byte) - allocates 1 byte
+2. DW (Define Word) - allocates 2 bytes
+3. DD (Define Doubleword) - allocates 4 bytes
+4. DQ (Define Quadword) - allocates 8 bytes
+5. DT (Define Ten Bytes) - allocates 10 bytes
+
+Allocating storage space for uninitalized data (reserve directive)
+
+Five basic forms of the reserve directive
+1. RESB - Reserve a byte
+2. RESW - Reserve a word
+3. RESD - Reserve a doubleword
+4. RESQ - Reserve a quadword
+5. REST - Reserve a ten bytes
+
+TIMES directive allows multiple initalizations to the same value. Useful when initalizing arrays and tables
 
