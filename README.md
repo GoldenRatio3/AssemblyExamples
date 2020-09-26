@@ -63,3 +63,9 @@ Five basic forms of the reserve directive
 
 TIMES directive allows multiple initalizations to the same value. Useful when initalizing arrays and tables
 
+## Logical Instructions
+
+- XORing an operand with itself changes the operand to 0. This is used to clear a register
+- AND operation can be used to clear one or more bits e.g. if you need to clear the higher order bits to zero, you AND it with 0x0F (00001111)
+
+
