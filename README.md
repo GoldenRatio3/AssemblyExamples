@@ -68,4 +68,8 @@ TIMES directive allows multiple initalizations to the same value. Useful when in
 - XORing an operand with itself changes the operand to 0. This is used to clear a register
 - AND operation can be used to clear one or more bits e.g. if you need to clear the higher order bits to zero, you AND it with 0x0F (00001111)
 
+## Conditional Instructions
+
+1. Unconditional jump - JMP [LABEL]
+2. Conditioonal jump - J__ [LABEL] e.g. JE (jump if equal) or JLE (jump if less than or equal) 
 
