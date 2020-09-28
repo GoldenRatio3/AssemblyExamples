@@ -73,3 +73,9 @@ TIMES directive allows multiple initalizations to the same value. Useful when in
 1. Unconditional jump - JMP [LABEL]
 2. Conditioonal jump - J__ [LABEL] e.g. JE (jump if equal) or JLE (jump if less than or equal) 
 
+## Hardware level
+Three main components
+1. CPU - The function of the CPU is to put the value stored in the register into various arithmetric units for processing
+2. Memory - The function of memory is to store most of the variables not involved in the operation, then import them into the register when needed 
+3. Hard Disk - The function of the hard disk is to store data when there is no power, once the program is running the data in the hard disk is loaded into memory and participates in the calculation in the CPU
+
