@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Assembly files have the .asm extension, the goal is to turn into an executable binary file with the .o extension 
+Assembly files have the .asm extension, the goal is to turn these into an executable binary file with the .o extension 
 
 ## Running Examples
 
@@ -13,7 +13,7 @@ Assembly files have the .asm extension, the goal is to turn into an executable b
 3. Run the program by running `./[FILE_NAME]`
 
 ## Reading compiled binary
-Once you have assembled the assembly (.asm) file into and object (.o) file you can run `hexdump -C [FILE_NAME].o` to out the binary representation
+Once you have assembled the assembly (.asm) file into and object (.o) file you can run `hexdump -C [FILE_NAME].o` to dump out the binary representation
 
 ## Registers
 
@@ -23,7 +23,7 @@ Three main areas defined in a assembly program
 3. Stack - It contains data and return addresses of procedures and subroutines
 
 ## System
-64-bit OSX is the system I am running on. It has a similar kernel calling convention to 64-bit linux.
+64-bit OSX is the system I'm running on. It has a similar kernel calling convention to 64-bit linux.
 
 Section A.2 AMD64 Linux Kernal Conventions
 1. User-level applications use as integer registers for passing the sequence %rdi, %rsi, %rdx, %rcx, %r8 and %r9. The kernel interface uses %rdi, %rsi, %rdx, %r10, %r8 and %r9.
